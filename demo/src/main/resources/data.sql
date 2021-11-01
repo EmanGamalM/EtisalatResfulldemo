@@ -2,7 +2,7 @@ insert into  department(department_id,department_name)  values (1,'HR');
 insert into  department(department_id,department_name)  values (2,'Development');
 insert into  department(department_id,department_name)  values (3,'QA');
 
-insert into  employee(employee_id ,first_name ,last_name,department_id) values (1,'samar','Gamal',2);
+insert into  employee(employee_id ,first_name ,last_name,department_id,hire_date) values (1,'samar','Gamal',2,TO_date('12/12/2012','dd/mm/yyyy'));
 insert into  employee(employee_id ,first_name ,last_name,department_id) values (2,'salem','ali',2);
 insert into  employee(employee_id ,first_name ,last_name,department_id) values (3,'joe','mostafa',2);
 insert into  employee(employee_id ,first_name ,last_name,department_id) values (4,'karimaa','maohmed',2);

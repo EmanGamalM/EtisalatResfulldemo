@@ -46,7 +46,7 @@ public class Employee {
 	@Column(length = 25)
 	private String email;
 	
-	@Pattern(regexp="(^$|[0-9\\-])")
+	//@Pattern(regexp="(^$[0-9])")//need to be tested
 	@Column(name = "phone_number", length = 20)
 	private String phoneNumber;
 
